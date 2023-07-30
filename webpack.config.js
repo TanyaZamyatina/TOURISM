@@ -2,6 +2,7 @@ const path = require('path')
 const { VueLoaderPlugin } = require('vue-loader')
 
 module.exports = {
+    publicPath: `/TOURISM/`,
     mode: 'development',
     entry: path.resolve(__dirname, 'src/js/main.js'),
     output: {
