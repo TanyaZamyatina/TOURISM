@@ -50,25 +50,25 @@ export default {
         titleChange() {
             let href = location.href;
             switch(href) {
-                case "http://localhost:9000/#/":
+                case "https://tanyazamyatina.github.io/TOURISM/#/":
                     this.title = "Удивительные места";
                     break;
-                case "http://localhost:9000/#/about":
+                case "https://tanyazamyatina.github.io/TOURISM/#/about":
                     this.title = "О нас";
                     break;
-                case "http://localhost:9000/#/training":
+                case "https://tanyazamyatina.github.io/TOURISM/#/training":
                     this.title = "Ваш помощник в путешествии";
                     break;
-                case "http://localhost:9000/#/tours":
+                case "https://tanyazamyatina.github.io/TOURISM/#/tours":
                     this.title = "Приключения ждут";
                     break;
-                case "http://localhost:9000/#/tours#mountains":
+                case "https://tanyazamyatina.github.io/TOURISM/#/tours#mountains":
                     this.title = "Приключения ждут";
                     break;
-                case "http://localhost:9000/#/tours#forest":
+                case "https://tanyazamyatina.github.io/TOURISM/#/tours#forestt":
                     this.title = "Приключения ждут";
                     break;
-                case "http://localhost:9000/#/tours#water":
+                case "https://tanyazamyatina.github.io/TOURISM/#/tours#water":
                     this.title = "Приключения ждут";
                     break;
             }
