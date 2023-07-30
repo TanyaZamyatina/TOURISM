@@ -65,7 +65,7 @@ export default {
                 case "https://tanyazamyatina.github.io/TOURISM/#/tours#mountains":
                     this.title = "Приключения ждут";
                     break;
-                case "https://tanyazamyatina.github.io/TOURISM/#/tours#forestt":
+                case "https://tanyazamyatina.github.io/TOURISM/#/tours#forest":
                     this.title = "Приключения ждут";
                     break;
                 case "https://tanyazamyatina.github.io/TOURISM/#/tours#water":
