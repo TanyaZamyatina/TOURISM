@@ -1,0 +1,30 @@
+$mainColor:rgb(27, 27, 27);
+$secondaryColor:#fff;
+$backgroundColor:#42553e;
+
+@mixin container {
+    @media(min-width: 1700px) {
+        width: 1500px;
+        margin: 0 auto;
+    }
+    @media(max-width: 1700px) and (min-width: 900px) {
+        width: 80%;
+        margin: 0 10%;
+    }
+    @media(max-width: 900px) {
+        width: 90%;
+        margin: 0 5%;
+    }
+}
+
+@mixin head {
+    background-image: url("/dist/img/main.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 65%;
+    min-height: 70vh;
+
+    @media(min-width: 1400px){
+        min-height: 75vh;
+    }
+}
