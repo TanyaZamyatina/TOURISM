@@ -190,6 +190,7 @@ export default {
                     display: flex;
                     justify-content: space-between;
                     flex-wrap: wrap;
+                    color: $mainColor;
 
                     label {
                         margin-right: 10px;
